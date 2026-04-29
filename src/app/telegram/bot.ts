@@ -1,8 +1,6 @@
 // app\telegram\bot.ts
 import { Telegraf } from "telegraf";
-import { profileHandler, sendProfile } from "./handlers/profile";
-import { callbackHandler } from "./handlers/callback";
-import { photoUploadHandler, setPhotoSlotHandler } from "./handlers/photoHandler";
+
 import { startHandler } from "./handlers/start";
 
 const activeChats = new Map<number, number>();
